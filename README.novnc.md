@@ -1,3 +1,6 @@
+JupyterLab with a local novnc server.
+Requires older labs, unfortunately not compatible with collaboration plugin.
+
 A similar solution, not based on Jupyter Stacks
 https://stackoverflow.com/questions/70170122/how-to-add-novnc-in-dockerised-jupyterlab
 
