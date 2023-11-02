@@ -1,0 +1,3 @@
+FROM jupyter/base-notebook:latest
+
+RUN conda install -q -y -c conda-forge jupyter-collaboration jupyterlab
