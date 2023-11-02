@@ -40,8 +40,9 @@ Go to Settings / Advanced / JSON Editor / noVNC and configure the endpoint.
 
 Start VNC/Robot session from the launcher of Jupyter Lab web UI.
 
-# https://chat.openai.com/share/b4ae2c1c-11eb-4f5c-a209-a898a701d3d2
-# https://github.com/RoboStack/jupyterlab-novnc
-## https://dl.acm.org/doi/pdf/10.1145/3491418.3535163
-## https://snyk.io/advisor/python/jupyterlab-rtc-hub-settings
-## https://github.com/jupyterhub/jupyter-server-proxy
+References:
+* https://chat.openai.com/share/b4ae2c1c-11eb-4f5c-a209-a898a701d3d2
+* https://github.com/RoboStack/jupyterlab-novnc
+* https://dl.acm.org/doi/pdf/10.1145/3491418.3535163
+* https://snyk.io/advisor/python/jupyterlab-rtc-hub-settings
+* https://github.com/jupyterhub/jupyter-server-proxy
