@@ -120,7 +120,10 @@ class BashKernel(Kernel):
             # source code there for comments and context for
             # understanding the code here.
             bashrc = os.path.join(os.path.dirname(pexpect.__file__), 'bashrc.sh')
-            child = pexpect.spawn("bash", ['--rcfile', bashrc], echo=False,
+            bash_cmd = "bash --rcfile {0}".format(bashrc)
+            # spawn_cmd, spawn_args = "termpair", ["share", "--cmd", bash_cmd]
+            spawn_cmd, spawn_args = "script", ["-t", "0", "/tmp/blah", "termpair", "share", "--cmd", bash_cmd]
+            child = pexpect.spawn(spawn_cmd, spawn_args, echo=False,
                                   encoding='utf-8', codec_errors='replace')
             # Following comment stolen from upstream's REPLWrap:
             # If the user runs 'env', the value of PS1 will be in the output. To avoid
